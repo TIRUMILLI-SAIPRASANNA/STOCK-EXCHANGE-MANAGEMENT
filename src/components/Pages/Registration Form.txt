@@ -1,0 +1,274 @@
+App.js :
+
+import React from 'react' 
+ 
+
+  const MultipleInputs = () => {
+  
+
+    return(
+      <form>
+        <center>
+        <div>
+          
+         <label htmlFor = "RegistrationName">Registered Name</label>
+         <br></br> 
+          <input type ="text" name = "RegistrationName" value = "Nitish"  id = "RegistartionName"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "RegistrationID">Registation ID</label>
+          <br></br>
+          <input type ="text" name = "RegistrationID" value = "2000031757" id = "RegistartionID"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Age">Age</label>
+          <br></br>
+          <input type ="text" name = "Age" value ="18"
+          id = "Age"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Gender">Gender</label>
+          <br></br>
+          <input type ="text" name = "Gender" value = "Male" id = "Gender"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Email ID">Email ID</label>
+          <br></br>
+          <input type ="text" name = "Email ID" value = "thotakuranitish03@gmail.com" 
+           id = "Email ID"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Mobile Number">Mobile Number</label>
+          <br></br>
+          <input type ="text" name = "Mobile Number" value = "7780779823"
+           id = "Mobile Number"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Department">Department</label>
+          <br></br>
+          <input type ="text" name = "Department" value ="CSE" 
+           id = "Department"/>
+
+        </div>
+
+        <button type="Submit">Register</button>
+        </center> 
+      </form>
+
+    )
+  }
+export default MultipleInputs
+
+
+
+
+App.js :
+
+import React from 'react' 
+ 
+
+  const MultipleInputs = () => {
+  
+
+    return(
+      <form>
+        <center>
+        <div>
+          
+         <label htmlFor = "RegistrationName">Registered Name</label>
+         <br></br> 
+          <input type ="text" name = "RegistrationName" placeholder = "Your Registration Name.." id = "RegistartionName"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "RegistrationID">Registation ID</label>
+          <br></br>
+          <input type ="text" name = "RegistrationID" placeholder = "Your Registration ID.." id = "RegistartionID"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Age">Age</label>
+          <br></br>
+          <input type ="text" name = "Age" placeholder = "Your Age.." 
+          id = "Age"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Gender">Gender</label>
+          <br></br>
+          <input type ="text" name = "Gender" placeholder = "Your Gender.."  id = "Gender"/> 
+
+        </div>
+
+        <div>
+          <label htmlFor = "Email ID">Email ID</label>
+          <br></br>
+          <input type ="text" name = "Email ID" placeholder = "Your Email ID.."
+           id = "Email ID"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Mobile Number">Mobile Number</label>
+          <br></br>
+          <input type ="text" name = "Mobile Number" placeholder = "Your Mobile Number.."
+           id = "Mobile Number"/>
+
+        </div>
+
+        <div>
+          <label htmlFor = "Department">Department</label>
+          <br></br>
+          <input type ="text" name = "Department" placeholder = "Your Department.."
+           id = "Department"/>
+
+        </div>
+
+        <button type="Submit">Register</button>
+        </center> 
+      </form>
+
+    )
+  }
+export default MultipleInputs
+
+
+
+
+App.js :
+
+import React from 'react' 
+
+
+  const MultipleInputs = () => {
+  
+    return(
+      <form className = "Container">
+        <center>
+        <div>
+        <br></br>
+         <label htmlFor = "RegistrationName">Registered Name</label>
+         <br></br> 
+          <input type ="text" name = "RegistrationName" placeholder = "Your Registration Name.." id = "RegistartionName"/>
+
+        </div>
+
+        <div>
+          <br></br>
+          <label htmlFor = "RegistrationID">Registation ID</label>
+          <br></br>
+          <input type ="text" name = "RegistrationID" placeholder = "Your Registration ID.." id = "RegistartionID"/>
+
+        </div>
+
+        <div>
+          <br></br>
+          <label htmlFor = "Age">Age</label>
+          <br></br>
+          <input type ="text" name = "Age" placeholder = "Your Age.." 
+          id = "Age"/>
+
+        </div>
+
+        <div >
+        <br></br>
+          <label htmlFor = "Gender">Gender</label>
+          <br></br>
+          <input type ="text" name = "Gender" placeholder = "Your Gender.."  id = "Gender"/> 
+
+        </div>
+
+        <div>
+        <br></br>
+          <label htmlFor = "Email ID">Email ID</label>
+          <br></br>
+          <input type ="text" name = "Email ID" placeholder = "Your Email ID.."
+           id = "Email ID"/>
+
+        </div>
+
+        <div>
+          <br></br>
+          <label htmlFor = "Mobile Number">Mobile Number</label>
+          <br></br>
+          <input type ="text" name = "Mobile Number" placeholder = "Your Mobile Number.."
+           id = "Mobile Number"/>
+
+        </div>
+
+        <div>
+          <br></br>
+          <label htmlFor = "Department">Department</label>
+          <br></br>
+          <input type ="text" name = "Department" placeholder = "Your Department.."
+           id = "Department"/>
+        </div>
+
+        
+        </center> 
+      </form>
+
+    )
+  }
+
+    export default MultipleInputs
+
+
+
+App.js:
+
+import React from 'react' 
+import './RegistrationForm.css'
+import MYPIC from './logo.png'
+
+  const MultipleInputs = () => {
+  
+    return(
+        <body>
+    <form>
+    <div class="loginbox">
+
+    <img src={MYPIC} class = "avatar" alt="NA"/>
+
+    <h1>Register Here</h1>
+    
+    <p>Registration Name</p>
+    <input type="text" name=""  placeholder="Your Registration Name" required/>
+    <br></br> 
+    <p>Regisration ID</p>
+    <input type="text" name="" placeholder="Your Registration ID" required/>
+    <br></br>
+    <p>DOB</p>
+    <input type="date" name="" required/>
+    <br></br>
+    <p>Mobile Number</p>
+    <input type="tel" name="" placeholder="Your Mobile Number" required/>
+    <br></br>
+    <p>Email ID</p>
+    <input type="email" name="" placeholder="Your Email ID" />
+    <br></br>
+    <p>Department</p>
+    <input type="text" name="" placeholder=" Your Department" required/>
+    <br></br>
+    <button type="submit">Register</button>
+    </div> 
+      </form>
+    </body>
+    )
+  }
+  export default MultipleInputs
