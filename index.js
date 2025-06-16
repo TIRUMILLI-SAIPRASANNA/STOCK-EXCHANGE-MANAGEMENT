@@ -2,7 +2,7 @@ const express=require("express");
 const mongoose=require('mongoose');
 const app=express();
 app.use(express.json());
-mongoose.connect("mongodb+srv://deepika_satya:ddeepu4@cluster0.4fdybqa.mongodb.net/Data",{
+mongoose.connect("mongodb+srv://username:pwd@cluster0.4fdybqa.mongodb.net/Data",{
     useNewUrlParser:true,
     useUnifiedTopology:true,
 }).then(()=>{
